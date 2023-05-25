@@ -5018,7 +5018,7 @@
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_5El85vivEe23ecxyjd29pg" visible="false" type="StructureCompartment"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5EkHsvivEe23ecxyjd29pg" x="12443" y="424"/>
               </children>
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_NxvV8PmjEe2aHstbldWm7w" element="_NxtgwPmjEe2aHstbldWm7w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_NxvV8PmjEe2aHstbldWm7w" element="_NxtgwPmjEe2aHstbldWm7w" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                 <children xmi:type="notation:DecorationNode" xmi:id="_NxvV8vmjEe2aHstbldWm7w" type="ImageCompartment">
                   <layoutConstraint xmi:type="notation:Size" xmi:id="_NxvV8_mjEe2aHstbldWm7w" width="1320" height="1320"/>
                 </children>
@@ -5540,6 +5540,18 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_DN9K2Pi2Ee23ecxyjd29pg" visible="false" type="AttributeCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_DN9K2fi2Ee23ecxyjd29pg" visible="false" type="OperationCompartment"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DN9K0fi2Ee23ecxyjd29pg" x="48501" y="-2219"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_LwRiEPrjEe2d0umFes9RXA" element="_Lv9ZAPrjEe2d0umFes9RXA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LwRiEvrjEe2d0umFes9RXA" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_LwRiE_rjEe2d0umFes9RXA" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_LwRiFPrjEe2d0umFes9RXA" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_LwRiFfrjEe2d0umFes9RXA" type="Kind"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_LwTXQPrjEe2d0umFes9RXA" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_LwTXQfrjEe2d0umFes9RXA" type="Parent"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_LwTXQvrjEe2d0umFes9RXA" visible="false" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_LwTXQ_rjEe2d0umFes9RXA" visible="false" type="OperationCompartment"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LwRiEfrjEe2d0umFes9RXA" x="27347" y="-734"/>
       </children>
       <element xsi:nil="true"/>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_nLAzvPisEe23ecxyjd29pg" element="_abJhoPifEe2XUIHERzws0A" source="_nK--YfisEe23ecxyjd29pg" target="_3evN8PmiEe2aHstbldWm7w" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="14768216" lineWidth="2" showStereotype="Text">
@@ -6169,13 +6181,14 @@
         </children>
         <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7mJ6sfivEe23ecxyjd29pg" points="[-1797, 291, 3242, -1256]$[-3082, 291, 1957, -1256]"/>
       </edges>
-      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_hHywEPiwEe23ecxyjd29pg" element="_hHw64PiwEe23ecxyjd29pg" source="_lxZ08PivEe23ecxyjd29pg" target="_Qs7gIPiwEe23ecxyjd29pg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="3107669" lineWidth="2" showStereotype="Text">
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_hHywEPiwEe23ecxyjd29pg" element="_hHw64PiwEe23ecxyjd29pg" source="_yitkQfivEe23ecxyjd29pg" target="_Qs7gIPiwEe23ecxyjd29pg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="3107669" lineWidth="2" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_hHywEviwEe23ecxyjd29pg" type="NameLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_hHywFPiwEe23ecxyjd29pg" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_hHywFfiwEe23ecxyjd29pg" type="Name"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hHywE_iwEe23ecxyjd29pg" y="-186"/>
         </children>
-        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hHywEfiwEe23ecxyjd29pg" points="[-2168, -94, 2881, 7603]$[-2767, -94, 2282, 7603]$[-2767, -4533, 2282, 3164]$[-5915, -4533, -866, 3164]$[-5915, -6785, -866, 912]"/>
+        <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hHywEfiwEe23ecxyjd29pg" points="[-844, -101, 9823, 7471]$[-844, -4439, 9823, 3133]$[-10129, -4439, 538, 3133]$[-10129, -6811, 538, 761]"/>
+        <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XYgxsPr9Ee26t4IzNLadpQ" id="(0.36793449550977286,0.039149888143176735)"/>
       </edges>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_icZLgPiwEe23ecxyjd29pg" element="_icXWUPiwEe23ecxyjd29pg" source="_nLAzsfisEe23ecxyjd29pg" target="_Qs7gIPiwEe23ecxyjd29pg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="3107669" lineWidth="2" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_icZLgviwEe23ecxyjd29pg" type="NameLabel">
@@ -6625,7 +6638,7 @@
         <children xmi:type="notation:DecorationNode" xmi:id="_gQ-gAvi0Ee23ecxyjd29pg" type="NameLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_gQ-gBPi0Ee23ecxyjd29pg" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_gQ-gBfi0Ee23ecxyjd29pg" type="Name"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gQ-gA_i0Ee23ecxyjd29pg" x="214" y="2187"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gQ-gA_i0Ee23ecxyjd29pg" x="-1950" y="222"/>
         </children>
         <children xmi:type="notation:DecorationNode" xmi:id="_gQ-gBvi0Ee23ecxyjd29pg" visible="false" type="ToMultiplicityLabel" element="_gQ61pPi0Ee23ecxyjd29pg">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_gQ-gCPi0Ee23ecxyjd29pg" type="ToMultiplicity"/>
@@ -6959,13 +6972,14 @@
         </children>
         <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cWFXUfkuEe2Mmuj9r5ctCw" points="[-45, -6, 131, -2]$[-118, -6, 58, -2]"/>
       </edges>
-      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jK5gwPkzEe2Mmuj9r5ctCw" element="_jK12YPkzEe2Mmuj9r5ctCw" source="_lxZ08PivEe23ecxyjd29pg" target="_3IG3gPiuEe23ecxyjd29pg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="3107669" lineWidth="2" showStereotype="Text">
+      <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jK5gwPkzEe2Mmuj9r5ctCw" element="_jK12YPkzEe2Mmuj9r5ctCw" source="_yitkQfivEe23ecxyjd29pg" target="_3IG3gPiuEe23ecxyjd29pg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="3107669" lineWidth="2" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="_jK7V8PkzEe2Mmuj9r5ctCw" type="NameLabel">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_jK7V8vkzEe2Mmuj9r5ctCw" type="Stereotype"/>
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_jK7V8_kzEe2Mmuj9r5ctCw" type="Name"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jK7V8fkzEe2Mmuj9r5ctCw" y="-186"/>
         </children>
         <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jK5gwfkzEe2Mmuj9r5ctCw" points="[-835, 1402, -1069, -8589]$[-835, 9291, -1069, -700]"/>
+        <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IQVX0PrgEe2d0umFes9RXA" id="(0.23018042646254783,0.9228187919463087)"/>
       </edges>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="__ljkEPmiEe2aHstbldWm7w" element="__lcPUPmiEe2aHstbldWm7w" source="_3evN8PmiEe2aHstbldWm7w" target="_JAHjcPZVEe2u06eMr8RS0w" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="5824856" lineWidth="2" showStereotype="Text">
         <children xmi:type="notation:DecorationNode" xmi:id="__ljkEvmiEe2aHstbldWm7w" type="NameLabel">
@@ -11869,25 +11883,37 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_3IDNIPiuEe23ecxyjd29pg" name="SoggettoOfferta" isAbstract="true">
-        <ownedAttribute xmi:id="_EZOuUPi6Ee23ecxyjd29pg" name="politica" visibility="private"/>
+        <ownedAttribute xmi:id="_EZOuUPi6Ee23ecxyjd29pg" name="politica" visibility="private" type="_FZppgPi6Ee23ecxyjd29pg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_lrkIIPiuEe23ecxyjd29pg" name="OffertaPalestra">
         <ownedAttribute xmi:id="_LX38cPivEe23ecxyjd29pg" name="soggettoOfferta" visibility="private" type="_3IDNIPiuEe23ecxyjd29pg" association="_LX2HQPivEe23ecxyjd29pg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LX38cvivEe23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LX38cfivEe23ecxyjd29pg" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_Haop0Pi6Ee23ecxyjd29pg" name="sconto" visibility="private"/>
-        <ownedAttribute xmi:id="_H0fUQPi6Ee23ecxyjd29pg" name="dataInizio" visibility="private"/>
-        <ownedAttribute xmi:id="_IVDqsPi6Ee23ecxyjd29pg" name="tipo" visibility="private"/>
-        <ownedAttribute xmi:id="_IoEGQPi6Ee23ecxyjd29pg" name="nome" visibility="private"/>
-        <ownedAttribute xmi:id="_K3Rv0Pi6Ee23ecxyjd29pg" name="dataFine" visibility="private"/>
+        <ownedAttribute xmi:id="_Haop0Pi6Ee23ecxyjd29pg" name="sconto" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H0fUQPi6Ee23ecxyjd29pg" name="dataInizio" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF7ykGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/dateTime?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IVDqsPi6Ee23ecxyjd29pg" name="tipo" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_IoEGQPi6Ee23ecxyjd29pg" name="nome" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_K3Rv0Pi6Ee23ecxyjd29pg" name="dataFine" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_phepwPiuEe23ecxyjd29pg" name="CatalogoOfferte">
         <ownedAttribute xmi:id="_uIzaMfiuEe23ecxyjd29pg" name="offerta" visibility="private" type="_lrkIIPiuEe23ecxyjd29pg" association="_uIzaMPiuEe23ecxyjd29pg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uIzaM_iuEe23ecxyjd29pg" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uIzaMviuEe23ecxyjd29pg"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_NdEGUPi6Ee23ecxyjd29pg" name="dataUltimoAggiornamento" visibility="private"/>
+        <ownedAttribute xmi:id="_NdEGUPi6Ee23ecxyjd29pg" name="dataUltimoAggiornamento" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_LX2HQPivEe23ecxyjd29pg" memberEnd="_LX38cPivEe23ecxyjd29pg _LX38c_ivEe23ecxyjd29pg">
         <ownedEnd xmi:id="_LX38c_ivEe23ecxyjd29pg" name="" visibility="private" type="_lrkIIPiuEe23ecxyjd29pg" association="_LX2HQPivEe23ecxyjd29pg">
@@ -11923,8 +11949,12 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ksr6gvitEe23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ksr6gfitEe23ecxyjd29pg" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_3Tm74Pi5Ee23ecxyjd29pg" name="codiceAbbonamento" visibility="private"/>
-        <ownedAttribute xmi:id="_6IHq4Pi5Ee23ecxyjd29pg" name="dataScadenza" visibility="private"/>
+        <ownedAttribute xmi:id="_3Tm74Pi5Ee23ecxyjd29pg" name="codiceAbbonamento" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6IHq4Pi5Ee23ecxyjd29pg" name="dataScadenza" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_vrfV8PijEe2XUIHERzws0A" name="create">
           <ownedParameter xmi:id="_xrhUAPijEe2XUIHERzws0A" name="abbonamentoDescrittore"/>
         </ownedOperation>
@@ -11937,9 +11967,13 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_b9zVQPihEe2XUIHERzws0A" name="AbbonamentoDescrittore">
         <generalization xmi:id="_HkkC4PivEe23ecxyjd29pg" general="_3IDNIPiuEe23ecxyjd29pg"/>
-        <ownedAttribute xmi:id="_AeTJ0Pi6Ee23ecxyjd29pg" name="costo" visibility="private"/>
-        <ownedAttribute xmi:id="_A85KUPi6Ee23ecxyjd29pg" name="tipo" visibility="private"/>
-        <ownedAttribute xmi:id="_BVnMUPi6Ee23ecxyjd29pg" name="descrizinone" visibility="private"/>
+        <ownedAttribute xmi:id="_AeTJ0Pi6Ee23ecxyjd29pg" name="costo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_A85KUPi6Ee23ecxyjd29pg" name="tipo" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BVnMUPi6Ee23ecxyjd29pg" name="descrizione" visibility="private" type="_TR0vsPi5Ee23ecxyjd29pg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_ksqFUPitEe23ecxyjd29pg" memberEnd="_ksr6gPitEe23ecxyjd29pg _kstvsPitEe23ecxyjd29pg">
         <ownedEnd xmi:id="_kstvsPitEe23ecxyjd29pg" name="" visibility="private" type="_QXzQkPijEe2XUIHERzws0A" association="_ksqFUPitEe23ecxyjd29pg">
@@ -11952,7 +11986,9 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hAnH0_ihEe2XUIHERzws0A" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hAnH0vihEe2XUIHERzws0A"/>
         </ownedAttribute>
-        <ownedOperation xmi:id="_PHZOEPiiEe2XUIHERzws0A" name="getAbbonamentoDescrittore(tipo)"/>
+        <ownedOperation xmi:id="_PHZOEPiiEe2XUIHERzws0A" name="getAbbonamentoDescrittore">
+          <ownedParameter xmi:id="_fyW64PrkEe2d0umFes9RXA" name="tipo"/>
+        </ownedOperation>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_nOcasPivEe23ecxyjd29pg" name="PacchettoIngressi">
@@ -11962,24 +11998,41 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_lxX_wPivEe23ecxyjd29pg" name="PacchettoIngressi">
-        <generalization xmi:id="_hHw64PiwEe23ecxyjd29pg" general="_Qs5q8PiwEe23ecxyjd29pg"/>
-        <generalization xmi:id="_jK12YPkzEe2Mmuj9r5ctCw" general="_3IDNIPiuEe23ecxyjd29pg"/>
         <ownedAttribute xmi:id="_0H6AcPivEe23ecxyjd29pg" name="pacchettoIngressi" visibility="private" type="_yitkQPivEe23ecxyjd29pg" association="_0H4LQPivEe23ecxyjd29pg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0H6AcvivEe23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0H6AcfivEe23ecxyjd29pg" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_eSSzgPi5Ee23ecxyjd29pg" name="numeroIngressiRimanenti" visibility="private"/>
-        <ownedAttribute xmi:id="_gMvuAPi5Ee23ecxyjd29pg" name="codicePacchetto" visibility="private"/>
-        <ownedAttribute xmi:id="_hmsjgPi5Ee23ecxyjd29pg" name="scadenza" visibility="private"/>
+        <ownedAttribute xmi:id="_eSSzgPi5Ee23ecxyjd29pg" name="numeroIngressiRimanenti" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gMvuAPi5Ee23ecxyjd29pg" name="codicePacchetto" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_hmsjgPi5Ee23ecxyjd29pg" name="scadenza" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_PYjbIPpFEe24V8kj-Vr-Gw" name="calcolaScadenza"/>
         <ownedOperation xmi:id="_RhSCMPpFEe24V8kj-Vr-Gw" name="setIngressiRimanenti"/>
+        <ownedOperation xmi:id="_Ve3HgPpEEe24V8kj-Vr-Gw" name="creaPacchetto">
+          <ownedParameter xmi:id="_YCmPkPpEEe24V8kj-Vr-Gw" name="pacchettoDescrittore"/>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_yitkQPivEe23ecxyjd29pg" name="PacchettoDescrittore">
-        <ownedAttribute xmi:id="_kNPH8Pi5Ee23ecxyjd29pg" name="costo" visibility="private"/>
-        <ownedAttribute xmi:id="_kuHncPi5Ee23ecxyjd29pg" name="numeroIngressi" visibility="private"/>
-        <ownedAttribute xmi:id="_l-Jr8Pi5Ee23ecxyjd29pg" name="descrizione" visibility="private"/>
-        <ownedAttribute xmi:id="_nIAP8Pi5Ee23ecxyjd29pg" name="durataValidita" visibility="private"/>
-        <ownedAttribute xmi:id="_oqbE8Pi5Ee23ecxyjd29pg" name="tipo" visibility="private"/>
+        <generalization xmi:id="_jK12YPkzEe2Mmuj9r5ctCw" general="_3IDNIPiuEe23ecxyjd29pg"/>
+        <generalization xmi:id="_hHw64PiwEe23ecxyjd29pg" general="_Qs5q8PiwEe23ecxyjd29pg"/>
+        <ownedAttribute xmi:id="_kNPH8Pi5Ee23ecxyjd29pg" name="costo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_kuHncPi5Ee23ecxyjd29pg" name="numeroIngressi" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_l-Jr8Pi5Ee23ecxyjd29pg" name="descrizione" visibility="private" type="_TR0vsPi5Ee23ecxyjd29pg"/>
+        <ownedAttribute xmi:id="_nIAP8Pi5Ee23ecxyjd29pg" name="durataValidita" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oqbE8Pi5Ee23ecxyjd29pg" name="tipo" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_0H4LQPivEe23ecxyjd29pg" memberEnd="_0H6AcPivEe23ecxyjd29pg _0H6Ac_ivEe23ecxyjd29pg">
         <ownedEnd xmi:id="_0H6Ac_ivEe23ecxyjd29pg" name="" visibility="private" type="_lxX_wPivEe23ecxyjd29pg" association="_0H4LQPivEe23ecxyjd29pg">
@@ -12002,7 +12055,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7mGQU_ivEe23ecxyjd29pg"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_NxtgwPmjEe2aHstbldWm7w" name="HandlerPacchetti">
+      <packagedElement xmi:type="uml:Class" xmi:id="_NxtgwPmjEe2aHstbldWm7w" name="PacchettiHandler">
         <ownedAttribute xmi:id="_UWrpofmjEe2aHstbldWm7w" name="catalogoPacchetti" visibility="private" type="_5EkHsPivEe23ecxyjd29pg" association="_UWrpoPmjEe2aHstbldWm7w">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UWte0PmjEe2aHstbldWm7w" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UWrpovmjEe2aHstbldWm7w" value="1"/>
@@ -12016,9 +12069,6 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PrSmYPpEEe24V8kj-Vr-Gw"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_PQ-7IPmjEe2aHstbldWm7w" name="acquistaPacchetto"/>
-        <ownedOperation xmi:id="_Ve3HgPpEEe24V8kj-Vr-Gw" name="creaPacchetto">
-          <ownedParameter xmi:id="_YCmPkPpEEe24V8kj-Vr-Gw" name="pacchettoDescrittore"/>
-        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_UWrpoPmjEe2aHstbldWm7w" memberEnd="_UWrpofmjEe2aHstbldWm7w _UWte0fmjEe2aHstbldWm7w">
         <ownedEnd xmi:id="_UWte0fmjEe2aHstbldWm7w" name="" visibility="private" type="_NxtgwPmjEe2aHstbldWm7w" association="_UWrpoPmjEe2aHstbldWm7w">
@@ -12046,8 +12096,12 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_Qs5q8PiwEe23ecxyjd29pg" name="Acquistabile" isAbstract="true">
-        <ownedAttribute xmi:id="_hwWrQPi4Ee23ecxyjd29pg" name="stato" visibility="private"/>
-        <ownedAttribute xmi:id="_jDH6sPi4Ee23ecxyjd29pg" name="dataAttivazione" visibility="private"/>
+        <ownedAttribute xmi:id="_hwWrQPi4Ee23ecxyjd29pg" name="stato" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jDH6sPi4Ee23ecxyjd29pg" name="dataAttivazione" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_lsC-YPiwEe23ecxyjd29pg" name="Acquisto">
         <ownedAttribute xmi:id="_rUTnYfiwEe23ecxyjd29pg" name="acquistabile" visibility="private" type="_Qs5q8PiwEe23ecxyjd29pg" association="_rUTnYPiwEe23ecxyjd29pg">
@@ -12058,8 +12112,12 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0tUlMviwEe23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0tUlMfiwEe23ecxyjd29pg"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_Z9iPMPi4Ee23ecxyjd29pg" name="data" visibility="private"/>
-        <ownedAttribute xmi:id="_bwbwMPi4Ee23ecxyjd29pg" name="stato" visibility="private"/>
+        <ownedAttribute xmi:id="_Z9iPMPi4Ee23ecxyjd29pg" name="data" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_bwbwMPi4Ee23ecxyjd29pg" name="stato" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_C2fowPpFEe24V8kj-Vr-Gw" name="create">
           <ownedParameter xmi:id="_ERIawPpFEe24V8kj-Vr-Gw" name="acquistabile"/>
         </ownedOperation>
@@ -12071,8 +12129,12 @@
         </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_ttkk0PiwEe23ecxyjd29pg" name="Pagamento">
-        <ownedAttribute xmi:id="_Nm764Pn1Ee2Em6UsXn_e5A" name="tipo" visibility="private"/>
-        <ownedAttribute xmi:id="_OX6r4Pn1Ee2Em6UsXn_e5A" name="ammontare" visibility="private"/>
+        <ownedAttribute xmi:id="_Nm764Pn1Ee2Em6UsXn_e5A" name="tipo" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_OX6r4Pn1Ee2Em6UsXn_e5A" name="ammontare" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_0tQ60PiwEe23ecxyjd29pg" memberEnd="_0tUlMPiwEe23ecxyjd29pg _0tWaYPiwEe23ecxyjd29pg">
         <ownedEnd xmi:id="_0tWaYPiwEe23ecxyjd29pg" name="" visibility="private" type="_lsC-YPiwEe23ecxyjd29pg" association="_0tQ60PiwEe23ecxyjd29pg">
@@ -12092,10 +12154,14 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gQ61o_i0Ee23ecxyjd29pg" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gQ61ovi0Ee23ecxyjd29pg"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_ZUK3MPi6Ee23ecxyjd29pg" name="nome" visibility="private"/>
-        <ownedAttribute xmi:id="_bbz5IPi6Ee23ecxyjd29pg" name="dimensione" visibility="private"/>
-        <ownedAttribute xmi:id="_coDCwPi6Ee23ecxyjd29pg" name="descrizione" visibility="private"/>
-        <ownedAttribute xmi:id="_dy33IPi6Ee23ecxyjd29pg" name="permessi" visibility="private"/>
+        <ownedAttribute xmi:id="_ZUK3MPi6Ee23ecxyjd29pg" name="nome" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_bbz5IPi6Ee23ecxyjd29pg" name="dimensione" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_coDCwPi6Ee23ecxyjd29pg" name="descrizione" visibility="private" type="_TR0vsPi5Ee23ecxyjd29pg"/>
+        <ownedAttribute xmi:id="_dy33IPi6Ee23ecxyjd29pg" name="permessi" visibility="private" type="_eyb2sPi6Ee23ecxyjd29pg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_pOvMkPixEe23ecxyjd29pg" name="InsiemeAree">
         <ownedAttribute xmi:id="_v7SkIPixEe23ecxyjd29pg" name="area" visibility="private" type="_nWcOMPixEe23ecxyjd29pg" association="_v7Qu8PixEe23ecxyjd29pg">
@@ -12114,9 +12180,15 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5GvnEvixEe23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5GvnEfixEe23ecxyjd29pg" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_isIFEPi6Ee23ecxyjd29pg" name="dataOraIngresso" visibility="private"/>
-        <ownedAttribute xmi:id="_l5pxAPi6Ee23ecxyjd29pg" name="dataOraUscita" visibility="private"/>
-        <ownedAttribute xmi:id="_noMWcPi6Ee23ecxyjd29pg" name="stato" visibility="private"/>
+        <ownedAttribute xmi:id="_isIFEPi6Ee23ecxyjd29pg" name="dataOraIngresso" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF7ykGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/dateTime?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_l5pxAPi6Ee23ecxyjd29pg" name="dataOraUscita" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF7ykGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/dateTime?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_noMWcPi6Ee23ecxyjd29pg" name="stato" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_5Gtx4PixEe23ecxyjd29pg" memberEnd="_5GvnEPixEe23ecxyjd29pg _5GvnE_ixEe23ecxyjd29pg">
         <ownedEnd xmi:id="_5GvnE_ixEe23ecxyjd29pg" name="" visibility="private" type="_x-WoEPixEe23ecxyjd29pg" association="_5Gtx4PixEe23ecxyjd29pg">
@@ -12126,8 +12198,12 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_KzYLcPizEe23ecxyjd29pg" name="AccessoCliente"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_egy70Pi0Ee23ecxyjd29pg" name="OrarioArea">
-        <ownedAttribute xmi:id="_RrcLQPi6Ee23ecxyjd29pg" name="giorno" visibility="private"/>
-        <ownedAttribute xmi:id="_SQ0wQPi6Ee23ecxyjd29pg" name="ora" visibility="private"/>
+        <ownedAttribute xmi:id="_RrcLQPi6Ee23ecxyjd29pg" name="giorno" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_SQ0wQPi6Ee23ecxyjd29pg" name="ora" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8CkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/time?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_gQ61oPi0Ee23ecxyjd29pg" name="orariAperturaChiusuraAree" memberEnd="_gQ61ofi0Ee23ecxyjd29pg _gQ61pPi0Ee23ecxyjd29pg">
         <ownedEnd xmi:id="_gQ61pPi0Ee23ecxyjd29pg" name="" visibility="private" type="_nWcOMPixEe23ecxyjd29pg" association="_gQ61oPi0Ee23ecxyjd29pg">
@@ -12174,10 +12250,14 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_8lmr4Pi3Ee23ecxyjd29pg" name="Documentazione" isAbstract="true">
-        <ownedAttribute xmi:id="_kpU48Pi3Ee23ecxyjd29pg" name="firmaContratto" visibility="private"/>
-        <ownedAttribute xmi:id="_1nEMcPi3Ee23ecxyjd29pg" name="dataFirma" visibility="private"/>
-        <ownedAttribute xmi:id="_5ZWyUPi3Ee23ecxyjd29pg" name="dataEmissione" visibility="private"/>
-        <ownedAttribute xmi:id="_vVI7YPi3Ee23ecxyjd29pg" name="documento" visibility="private"/>
+        <ownedAttribute xmi:id="_kpU48Pi3Ee23ecxyjd29pg" name="firmaContratto" visibility="private" type="_Lv9ZAPrjEe2d0umFes9RXA"/>
+        <ownedAttribute xmi:id="_1nEMcPi3Ee23ecxyjd29pg" name="dataFirma" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_5ZWyUPi3Ee23ecxyjd29pg" name="dataEmissione" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_vVI7YPi3Ee23ecxyjd29pg" name="documento" visibility="private" type="_FK_NUPi4Ee23ecxyjd29pg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_oJf0EPi3Ee23ecxyjd29pg" name="Contratto">
         <generalization xmi:id="_-OzeUPi3Ee23ecxyjd29pg" general="_8lmr4Pi3Ee23ecxyjd29pg"/>
@@ -12198,9 +12278,15 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XN_AEvi1Ee23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XN_AEfi1Ee23ecxyjd29pg" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_eUSCcPi3Ee23ecxyjd29pg" name="dataIscrizione" visibility="private"/>
-        <ownedAttribute xmi:id="_gORp8Pi3Ee23ecxyjd29pg" name="costo" visibility="private"/>
-        <ownedAttribute xmi:id="_jcgggPi3Ee23ecxyjd29pg" name="stato" visibility="private"/>
+        <ownedAttribute xmi:id="_eUSCcPi3Ee23ecxyjd29pg" name="dataIscrizione" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gORp8Pi3Ee23ecxyjd29pg" name="costo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jcgggPi3Ee23ecxyjd29pg" name="stato" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
         <ownedAttribute xmi:id="_zWClAPi3Ee23ecxyjd29pg" name="contratto" visibility="private" type="_oJf0EPi3Ee23ecxyjd29pg" association="_zWB98Pi3Ee23ecxyjd29pg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zWDMEPi3Ee23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zWClAfi3Ee23ecxyjd29pg" value="1"/>
@@ -12222,9 +12308,15 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Inq7IviuEe23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Inq7IfiuEe23ecxyjd29pg" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_qogXsPi4Ee23ecxyjd29pg" name="dataOra" visibility="private"/>
-        <ownedAttribute xmi:id="_u6xeIPi4Ee23ecxyjd29pg" name="stato" visibility="private"/>
-        <ownedAttribute xmi:id="_UXsnkPn2Ee2Em6UsXn_e5A" name="IdPrenotazione" visibility="private"/>
+        <ownedAttribute xmi:id="_qogXsPi4Ee23ecxyjd29pg" name="dataOra" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF7ykGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/dateTime?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_u6xeIPi4Ee23ecxyjd29pg" name="stato" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UXsnkPn2Ee2Em6UsXn_e5A" name="IdPrenotazione" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_bJK6wPpLEe24V8kj-Vr-Gw" name="setServizioPrenotato">
           <ownedParameter xmi:id="_ctl64PpLEe24V8kj-Vr-Gw" name="servizioPrenotato"/>
         </ownedOperation>
@@ -12293,8 +12385,12 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cV-CkfkuEe2Mmuj9r5ctCw" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cV-CkPkuEe2Mmuj9r5ctCw" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_hFDn4PkuEe2Mmuj9r5ctCw" name="dataRichiesta" visibility="private"/>
-        <ownedAttribute xmi:id="_iqOO4PkuEe2Mmuj9r5ctCw" name="idRichiesta" visibility="private"/>
+        <ownedAttribute xmi:id="_hFDn4PkuEe2Mmuj9r5ctCw" name="dataRichiesta" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_iqOO4PkuEe2Mmuj9r5ctCw" name="idRichiesta" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_cV6YMPkuEe2Mmuj9r5ctCw" memberEnd="_cV8NYPkuEe2Mmuj9r5ctCw _cV-CkvkuEe2Mmuj9r5ctCw">
         <ownedEnd xmi:id="_cV-CkvkuEe2Mmuj9r5ctCw" name="" visibility="private" type="_ObE1APkuEe2Mmuj9r5ctCw" association="_cV6YMPkuEe2Mmuj9r5ctCw">
@@ -12322,14 +12418,24 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eYEBIfi1Ee23ecxyjd29pg" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eYEBIPi1Ee23ecxyjd29pg"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_D9lJkPi5Ee23ecxyjd29pg" name="dataSvolgimento" visibility="private"/>
+        <ownedAttribute xmi:id="_D9lJkPi5Ee23ecxyjd29pg" name="dataSvolgimento" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_eIgVoPZZEe2_o9JvF709Iw" name="ServiziDescrittore">
         <generalization xmi:id="_GU05UPivEe23ecxyjd29pg" general="_3IDNIPiuEe23ecxyjd29pg"/>
-        <ownedAttribute xmi:id="_PWaDAPi5Ee23ecxyjd29pg" name="nome" visibility="private"/>
-        <ownedAttribute xmi:id="_R0yxAPi5Ee23ecxyjd29pg" name="tipo" visibility="private"/>
-        <ownedAttribute xmi:id="_SQkHAPi5Ee23ecxyjd29pg" name="costo" visibility="private"/>
-        <ownedAttribute xmi:id="_SmO1APi5Ee23ecxyjd29pg" name="descrizione" visibility="private"/>
+        <ownedAttribute xmi:id="_PWaDAPi5Ee23ecxyjd29pg" name="nome" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_R0yxAPi5Ee23ecxyjd29pg" name="tipo" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_SQkHAPi5Ee23ecxyjd29pg" name="costo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_SmO1APi5Ee23ecxyjd29pg" name="descrizione" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_nFQ7cPitEe23ecxyjd29pg" memberEnd="_nFQ7cfitEe23ecxyjd29pg _nFSwoPitEe23ecxyjd29pg">
         <ownedEnd xmi:id="_nFSwoPitEe23ecxyjd29pg" name="" visibility="private" type="_1pxdAPZYEe2u06eMr8RS0w" association="_nFQ7cPitEe23ecxyjd29pg">
@@ -12345,7 +12451,9 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ofnZkfitEe23ecxyjd29pg" value="*"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ofnZkPitEe23ecxyjd29pg"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_CTPHoPi5Ee23ecxyjd29pg" name="dataUltimoAggiornamento" visibility="private"/>
+        <ownedAttribute xmi:id="_CTPHoPi5Ee23ecxyjd29pg" name="dataUltimoAggiornamento" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
         <ownedOperation xmi:id="_960q4PpCEe24V8kj-Vr-Gw" name="trovaCorso">
           <ownedParameter xmi:id="_A63UcPpDEe24V8kj-Vr-Gw" name="nomeCorso"/>
         </ownedOperation>
@@ -12358,15 +12466,21 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_hHGsMPizEe23ecxyjd29pg" name="ServizioPersonalizzato">
         <generalization xmi:id="_iebEcPizEe23ecxyjd29pg" general="_1pxdAPZYEe2u06eMr8RS0w"/>
-        <ownedAttribute xmi:id="_bCKfgPi5Ee23ecxyjd29pg" name="supplemento" visibility="private"/>
+        <ownedAttribute xmi:id="_bCKfgPi5Ee23ecxyjd29pg" name="supplemento" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </ownedAttribute>
         <ownedAttribute xmi:id="_90YwAfizEe23ecxyjd29pg" name="servizioPersonalizzato" visibility="private" type="_qWhckPZXEe2u06eMr8RS0w" association="_90YwAPizEe23ecxyjd29pg">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_90YwA_izEe23ecxyjd29pg" value="1"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_90YwAvizEe23ecxyjd29pg"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_dDbwgPi1Ee23ecxyjd29pg" name="OraServizi">
-        <ownedAttribute xmi:id="_KaaDEPi5Ee23ecxyjd29pg" name="giorno" visibility="private"/>
-        <ownedAttribute xmi:id="_LQRUEPi5Ee23ecxyjd29pg" name="ora" visibility="private"/>
+        <ownedAttribute xmi:id="_KaaDEPi5Ee23ecxyjd29pg" name="giorno" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_LQRUEPi5Ee23ecxyjd29pg" name="ora" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8CkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/time?"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_eYCL8Pi1Ee23ecxyjd29pg" memberEnd="_eYCL8fi1Ee23ecxyjd29pg _eYEBIvi1Ee23ecxyjd29pg">
         <ownedEnd xmi:id="_eYEBIvi1Ee23ecxyjd29pg" name="" visibility="private" type="_1pxdAPZYEe2u06eMr8RS0w" association="_eYCL8Pi1Ee23ecxyjd29pg">
@@ -12375,8 +12489,10 @@
         </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_qWhckPZXEe2u06eMr8RS0w" name="Scheda">
-        <ownedAttribute xmi:id="_18I9MPi6Ee23ecxyjd29pg" name="dataRilascio" visibility="private"/>
-        <ownedAttribute xmi:id="_4DedIPi6Ee23ecxyjd29pg" name="descrizione" visibility="private"/>
+        <ownedAttribute xmi:id="_18I9MPi6Ee23ecxyjd29pg" name="dataRilascio" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_4DedIPi6Ee23ecxyjd29pg" name="descrizione" visibility="private" type="_TR0vsPi5Ee23ecxyjd29pg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_dhEKwPpBEe24V8kj-Vr-Gw" name="Package1">
         <eAnnotations xmi:id="_dhH1IPpBEe24V8kj-Vr-Gw" source="uml2.diagrams" references="_dhH1IfpBEe24V8kj-Vr-Gw">
@@ -13348,9 +13464,15 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R5hc0fi1Ee23ecxyjd29pg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R5hc0Pi1Ee23ecxyjd29pg" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_xKvqwPi6Ee23ecxyjd29pg" name="nome" visibility="private"/>
-      <ownedAttribute xmi:id="_x1URwPi6Ee23ecxyjd29pg" name="cognome" visibility="private"/>
-      <ownedAttribute xmi:id="_ydrSQPi6Ee23ecxyjd29pg" name="dataNascita" visibility="private"/>
+      <ownedAttribute xmi:id="_xKvqwPi6Ee23ecxyjd29pg" name="nome" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_x1URwPi6Ee23ecxyjd29pg" name="cognome" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ydrSQPi6Ee23ecxyjd29pg" name="dataNascita" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF7ykGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/dateTime?"/>
+      </ownedAttribute>
       <ownedAttribute xmi:id="_VhQ_kfi1Ee23ecxyjd29pg" name="richiesteEffettuate" visibility="private" type="_ObE1APkuEe2Mmuj9r5ctCw" association="_VhQ_kPi1Ee23ecxyjd29pg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VhQ_k_i1Ee23ecxyjd29pg" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VhQ_kvi1Ee23ecxyjd29pg"/>
@@ -13961,6 +14083,7 @@
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Omow0fpXEe24V8kj-Vr-Gw" name="ReceiveOperationEvent31">
     <operation href="platform:/resource/project.zip_expanded/Blank%20Package.emx#_BgXaoPlFEe2YyMygyzIY7w?ModelloPalestra2Locale/Persone/Persona/acquista?"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Lv9ZAPrjEe2d0umFes9RXA" name="firmaDocumento"/>
   <profileApplication xmi:id="_O0dbtOwEEe2b6_jRl6fX1Q">
     <eAnnotations xmi:id="_O0dbtewEEe2b6_jRl6fX1Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
